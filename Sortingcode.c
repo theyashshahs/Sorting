@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
 int i,n;
 printf("Enter the number of Elements :- ");
@@ -37,4 +37,5 @@ for(i=0;i<n;i++)
 {
     printf("%d ",a[i]);
 }
+    return 0;
 }
